@@ -3,14 +3,12 @@ spring:
     active:
       -dev
 ---
-
 server: 
   port: 7001
 spring:
   profiles: dev
   application:
     name: microservicecloud-config-eureka-client
- 
 eureka: 
   instance:
     hostname: eureka7001.com #eureka服务端的实例名称
